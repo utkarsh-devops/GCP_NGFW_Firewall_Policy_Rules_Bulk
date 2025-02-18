@@ -86,7 +86,7 @@ python main.py a.csv my-abc-firewall-policy --global_policy
 * The script assumes that the gcloud CLI is configured correctly with your project.
 * If you encounter any issues, check the detailed logging output for debugging information.
 
-* **Contributing**
+**Contributing**
   
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the script.
 
