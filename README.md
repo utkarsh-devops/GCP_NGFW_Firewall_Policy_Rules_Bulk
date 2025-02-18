@@ -28,33 +28,33 @@ Create a CSV file with the following headers:
 ```
 PRIORITY,ACTION,DESCRIPTION,TARGET_SECURE_TAGS,DIRECTION,SRC_IP_RANGES,DEST_IP_RANGES,LAYER4_CONFIGS,ENABLE_LOGGING,DISABLED,SRC_ADDRESS_GROUPS,DEST_ADDRESS_GROUPS
 ```
-**PRIORITY**: Priority of the rule (lower numbers have higher priority).
+* **PRIORITY**: Priority of the rule (lower numbers have higher priority).
 
-**ACTION**: `allow` or `deny`.
+* **ACTION**: `allow` or `deny`.
 
-**DESCRIPTION**: Description of the rule.
+* **DESCRIPTION**: Description of the rule.
 
-**TARGET_SECURE_TAGS**: Target secure tags (comma-separated in brackets).
+* **TARGET_SECURE_TAGS**: Target secure tags (comma-separated in brackets).
 
-**SRC_SECURE_TAGS**: Source secure tags (comma-separated in brackets).
+* **SRC_SECURE_TAGS**: Source secure tags (comma-separated in brackets).
 
-**DIRECTION**: `INGRESS` or `EGRESS`.
+* **DIRECTION**: `INGRESS` or `EGRESS`.
 
-**SRC_NETWORKS**: Source networks (comma-separated).
+* **SRC_NETWORKS**: Source networks (comma-separated).
 
-**SRC_IP_RANGES**: Source IP ranges (comma-separated).
+* **SRC_IP_RANGES**: Source IP ranges (comma-separated).
 
-**DEST_IP_RANGES**: Destination IP ranges (comma-separated).
+* **DEST_IP_RANGES**: Destination IP ranges (comma-separated).
 
-**LAYER4_CONFIGS**: Layer 4 configurations (e.g., `tcp:80,tcp:443`).
+* **LAYER4_CONFIGS**: Layer 4 configurations (e.g., `tcp:80,tcp:443`).
 
-**ENABLE_LOGGING**: `TRUE` or `FALSE` to enable logging.
+* **ENABLE_LOGGING**: `TRUE` or `FALSE` to enable logging.
 
-**DISABLED**: `TRUE` or `FALSE` to disable the rule.
+* **DISABLED**: `TRUE` or `FALSE` to disable the rule.
 
-**SRC_ADDRESS_GROUPS**: Source address groups (comma-separated in brackets).
+* **SRC_ADDRESS_GROUPS**: Source address groups (comma-separated in brackets).
 
-**DEST_ADDRESS_GROUPS**: Destination address groups (comma-separated in brackets).
+* **DEST_ADDRESS_GROUPS**: Destination address groups (comma-separated in brackets).
 
 **Example CSV:**
 ```
