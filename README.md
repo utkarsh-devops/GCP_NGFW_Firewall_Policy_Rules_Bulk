@@ -87,7 +87,9 @@ python main.py a.csv my-abc-firewall-policy --global_policy
 * If you encounter any issues, check the detailed logging output for debugging information.
 
 * **Contributing**
+  
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the script.
+
 ```
 This README file provides a comprehensive guide to using the script, including its features, prerequisites, usage instructions, and an example. It also encourages contributions and provides information on how to get involved.
 ```
